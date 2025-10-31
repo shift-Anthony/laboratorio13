@@ -11,5 +11,5 @@ function contarPalabras(texto) {
 //Ejecucion del Codigo
 const oracion = "hola mundo hola universo mundo hola";
 const oracion2 = "sol luna sol sol estrella luna";
-alert(`Texto Ingresado: ${oracion}\nEl map retorna:\n${contarPalabras(oracion)}`);
-alert(`Texto Ingresado: ${oracion2}\nEl map retorna:\n${contarPalabras(oracion2)}`);
+alert(`Texto Ingresado: ${oracion}\n\nEl map retorna:\n${contarPalabras(oracion)}`);
+alert(`Texto Ingresado: ${oracion2}\n\nEl map retorna:\n${contarPalabras(oracion2)}`);
