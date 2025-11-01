@@ -6,4 +6,4 @@ function reordenarPalabras(oracion) {
 }
 // Ejecucion del codigo
 const cadena = "sol luna estrella planeta";
-alert(`La cadena: "${cadena}", luego de la funcion reordenarPalabras ahora es: [${reordenarPalabras(cadena)}]`); // Muestra ["ESTRELLA", "LUNA", "PLANETA", "SOL"]
+alert(`La cadena: "${cadena}", luego de la funcion reordenarPalabras ahora es: [${reordenarPalabras(cadena)}]`); 
