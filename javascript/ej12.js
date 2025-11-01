@@ -1,10 +1,12 @@
 function contarLetras(texto) {
-    const contador = {};
-    for (let char of texto) {
-        contador.char = 1;
-
-    }
-    alert(contador);
+    const conteo = {};
+    for (let letra of texto.toLowerCase()) if (letra !== " ") if (conteo[letra] === undefined) conteo[letra] = 1;
+    else conteo[letra] = conteo[letra] + 1;
+    return conteo;
 }
-
-contarLetras("hola mundo");
+//Ejecucion del codigo
+let a = "";
+const cadena = "banana"
+let resultado = contarLetras(cadena)
+for (let k in resultado) a = a + `${k} => ${resultado[k]}\n`
+alert(`Cadena ingresada: "${cadena}"\nletras:\n${a}`);
